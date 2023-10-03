@@ -1,0 +1,58 @@
+aside {
+  position: fixed;
+  left: 0;
+  top: 0;
+  box-shadow: 0 6px 15px #0003;
+  width: 100%;
+  height: 0;
+  background-color: #000000;
+  z-index: 999;
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+aside.toggle {
+  overflow: visible;
+  height: 100vh;
+}
+
+aside .side-container {
+  padding: 30px;
+}
+
+aside .side-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.side-header a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.side-header .close {
+  cursor: pointer;
+}
+.close img {
+  width: 100%;
+  object-fit: cover;
+  vertical-align: middle;
+}
+.side-container .side-nav {
+  padding-top: 6rem;
+  padding-bottom: 1rem;
+}
+.side-nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.side-nav li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}

@@ -47,7 +47,12 @@ main .container {
 
 /* ========= Leader ========= */
 .section-leader {
-  margin-bottom: 10rem;
+  margin-bottom: 2rem;
+}
+@media (min-width: 922px) {
+  .section-leader {
+    margin-bottom: 5rem;
+  }
 }
 
 /* ========= Footer ========= */
